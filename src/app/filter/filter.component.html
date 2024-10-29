@@ -1,0 +1,17 @@
+<ion-card class="title">
+  <ion-card-header>
+    <ion-button fill="clear" (click)="toggle()">
+      <ion-icon class="toggle-icon" name="chevron-down-outline" [class.rotated]="!isCollapsed"></ion-icon>
+      <span>{{ isCollapsed ? 'Show Filters' : 'Hide Filters' }}</span>
+    </ion-button>
+  </ion-card-header>
+
+  <ion-card-content [@slideToggle]="isCollapsed ? 'collapsed' : 'expanded'">
+
+    <ng-content></ng-content>
+
+    <ion-button expand="block" color="primary" (click)="onSubmit()">
+      Submit
+    </ion-button>
+  </ion-card-content>
+</ion-card>

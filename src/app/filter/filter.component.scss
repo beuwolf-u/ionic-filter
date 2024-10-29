@@ -1,0 +1,14 @@
+.title {
+  -webkit-box-shadow: 5px 8px 6px -6px var(--ion-color-secondary-shade);
+  -moz-box-shadow: 5px 8px 6px -6px var(--ion-color-secondary-shade);
+  -o-box-shadow: 5px 8px 6px -6px var(--ion-color-secondary-shade);
+  box-shadow: 5px 8px 6px -6px var(--ion-color-secondary-shade);
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.rotated {
+  transform: rotate(180deg);
+}
