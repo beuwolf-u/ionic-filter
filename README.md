@@ -9,3 +9,5 @@ Event Emission: Emits a submitAction event when the submit button is clicked, en
 Smooth Animations: Includes animations for toggling visibility, enhancing the overall user experience.
 Tested Functionality: Comes with a comprehensive suite of tests to ensure reliability and maintainability.
 This component is ideal for applications that require dynamic filtering options, such as e-commerce platforms, data dashboards, or any app needing enhanced data interaction. You can find the implementation and detailed usage instructions in the repository. Feel free to contribute or customize it to suit your needs!
+
+The article description can be found in here https://medium.com/@rubenh.2005/creating-a-standard-angular-filter-component-for-consistent-application-wide-filtering-00ee7e31af8d
